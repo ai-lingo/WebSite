@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	// Custom JavaScript for the homepage
+	// Custom JavaScript for the dark homepage
 
 	// Initiate counters effect
 	$(".pa-counterskills").counterUp({ delay: 20, time: 2200 });
@@ -9,7 +9,7 @@ $(document).ready(function () {
 	particlesJS("particles-js", {
 		"particles": {
 			"number": {
-				"value": 123,
+				"value": 90,
 				"density": {
 					"enable": true,
 					"value_area": 800
@@ -34,22 +34,22 @@ $(document).ready(function () {
 				}
 			},
 			"opacity": {
-				"value": .5,
+				"value": 0.15,
 				"random": false,
 				"anim": {
 					"enable": false,
 					"speed": 1,
-					"opacity_min": .1,
+					"opacity_min": 0.1,
 					"sync": false
 				}
 			},
 			"size": {
-				"value": 3,
+				"value": 5,
 				"random": true,
 				"anim": {
 					"enable": false,
 					"speed": 40,
-					"size_min": .1,
+					"size_min": 0.1,
 					"sync": false
 				}
 			},
@@ -57,12 +57,12 @@ $(document).ready(function () {
 				"enable": true,
 				"distance": 150,
 				"color": "FFFFFF",
-				"opacity": .5,
+				"opacity": 0.1,
 				"width": 1
 			},
 			"move": {
 				"enable": true,
-				"speed": 4,
+				"speed": 1,
 				"direction": "none",
 				"random": false,
 				"straight": false,
@@ -84,27 +84,27 @@ $(document).ready(function () {
 				},
 				"onclick": {
 					"enable": true,
-					"mode": "repulse"
+					"mode": "bubble"
 				},
 				"resize": true
 			},
 			"modes": {
 				"grab": {
-					"distance": 231,
+					"distance": 350,
 					"line_linked": {
-						"opacity": 1
+						"opacity": 0.65
 					}
 				},
 				"bubble": {
-					"distance": 231,
+					"distance": 350,
 					"size": 12,
 					"duration": 1.542946703372556,
-					"opacity": .9,
+					"opacity": 0.9,
 					"speed": 3
 				},
 				"repulse": {
-					"distance": 231,
-					"duration": .4
+					"distance": 350,
+					"duration": 0.4
 				},
 				"push": {
 					"particles_nb": 4
@@ -118,9 +118,9 @@ $(document).ready(function () {
 	});
 
 	// Initiate typed.js text effect (done custom for each typed text effect)
-	$(".animated-text-effect").typed({
-		// Enter your texts here, these texts are applied to light homepages
-		strings: ["Awesome Ineractive Effect^", "Click on the live effect!^", "Coolest Modern HTML Theme^"], 
+	$(".animated-text-effect").typed({ 
+		// Enter your texts here, these texts are applied to dark homepages
+		strings: ["aiLingo for everyone!^", "aiLingo best friend!^", "aiLingo is convenient!^"], 
 		contentType: "text", 
 		typeSpeed: 30, 
 		loop: true, 
