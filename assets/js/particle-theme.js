@@ -47,11 +47,11 @@ $(document).ready(function () {
 	// $('body').prepend('<div class="pa-page-transition pa-page-transition-1 is-active"></div>');
 	// $('body').prepend('<div class="pa-page-transition pa-page-transition-1 is-active" style="transition: all 1.2s ease 0s; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 10000001; background-color: #091019; opacity: 0; pointer-events: none;"></div>');
 
-	// Page Preloader - Part 1 (pre-insert)
-	$('body').prepend('<div class="pa-loader">' +
-		'<section class="warper"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="preloader"><p class="hello"></p><div id="preloader"><div id="loader"></div></div></div></section>' +
-		'<section class="warper darker"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>' +
-	'</div>');
+	// // Page Preloader - Part 1 (pre-insert)
+	// $('body').prepend('<div class="pa-loader">' +
+	// 	'<section class="warper"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="preloader"><p class="hello"></p><div id="preloader"><div id="loader"></div></div></div></section>' +
+	// 	'<section class="warper darker"><div class="spinn" style="opacity: 0.24;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></section>' +
+	// '</div>');
 
 	setTimeout(function(){
 		$('.pa-overlay').detach();

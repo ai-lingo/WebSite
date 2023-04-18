@@ -1,31 +1,3 @@
-/**
- * FORM SETUP - PARTICLE THEME - DELIVERY
- * --------------------------------------
- * NOTE: This is the adaptation of the original code.
- * What is this: A JS initialization of the forms
- * How is it done: new SimpleForms("example-id") call (below) looks for the <form>
- * element with ID example-id in the HTML page. There is a ready made call we've made that
- * will look for form with ID: contact-form-1 (as you can see below) i.e. the call will
- * target the contact form.
- * --------------------------------------
- * ONLY CHANGE: 
- * 1: siteKey (ctrl+f CHANGEME) (recaptcha V3 SITE KEY, 1 location)
- * possibly change customSuccessMessage if you want
- * change debug (true or false) if you want to look for errors
- * change lang, but follow orignial documentation as we don't provide
- * support for this.
- * ---------------------------------------------------------------------
- * If you need more forms other than ours, you can add them. Just give your new
- * form an ID, then copy the code from below, change the variables - contactFormID
- * and contactForm to let's say myNewForm7ID and myNew7Form, and instead of
- * "contact-form-1" put the ID of your new form (e.g. "my-new-form-7")
- * ---------------------------------------------------------------------
- * Original code is available at http://projects.lucas-games.com/simple-forms/
- * but these are the options we used. If you want to build a custom form
- * You will need to completely remove our integration and follow the
- * Documentation on the link above. Alternatively, you can try to
- * modify our existing forms but we will not provide support for that.
- */
 
 /**
  * Contact form
